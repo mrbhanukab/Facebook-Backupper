@@ -1,6 +1,8 @@
 # Facebook Album Downloader
 
-This Python script uses Selenium and BeautifulSoup to download Facebook albums. The script was originally created to backup the latest 60 albums from the [old ICPS Facebook page](https://www.facebook.com/isipathanaphotography) to a [new page](https://www.facebook.com/profile.php?id=100092021438896).
+This Python script uses Selenium and BeautifulSoup to download Facebook albums. The script was originally created to backup the latest 60 albums from the [old ICPS Facebook page](https://www.facebook.com/isipathanaphotography) to the [new page](https://www.facebook.com/profile.php?id=100092021438896).
+
+**Note** :- I created this script to solve an immediate problem and meet a pressing need. Since I had limited time due to my A/L examination, the code was not optimized or designed with best practices in mind. My primary goal was to get the job done as quickly as possible, and I did not have the luxury of dedicating extra time to make it more elegant or efficient. Therefore, the code might be difficult to read, not scalable, or prone to errors. Despite its limitations, it served its purpose and allowed me to complete the task at hand.
 
 ## Prerequisites
 
@@ -18,7 +20,7 @@ This Python script uses Selenium and BeautifulSoup to download Facebook albums. 
 5. The script will prompt you to log in to Facebook.
 6. After login, the script will automatically download all the albums from the Facebook page specified in the `target_url` variable in the script.
 
-The script will prompt you to log in to Facebook. After logging in, it will download the images from the albums on the Facebook page specified in the target_url variable. By default, the first two albums found on the page will be downloaded. You can change this by modifying the album_links variable.
+The script will prompt you to log in to Facebook. After logging in, it will download the images from the albums on the Facebook page specified in the target_url variable. By default, the first 52 albums found on the page will be downloaded. You can change this by modifying the album_links variable.
 
 The downloaded images will be saved in a directory named `albums` in the same directory as the script. The metadata for each album will be saved in a `metadata.json` file in the album directory.
 
@@ -46,7 +48,7 @@ albums/ <br />
 
 ## Disclaimer
 
-This script is for educational and personal use only. Please respect the privacy and copyright of the owners of the albums you download using this script.
+Please respect the privacy and copyright of the owners of the albums you download using this script.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
