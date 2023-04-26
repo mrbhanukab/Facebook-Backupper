@@ -1,6 +1,6 @@
 # Facebook Album Downloader
 
-This Python script uses Selenium and BeautifulSoup to download Facebook albums. 
+This Python script uses Selenium and BeautifulSoup to download Facebook albums. The script was originally created to backup the latest 60 albums from the [old ICPS Facebook page](https://www.facebook.com/isipathanaphotography) to a [new page](https://www.facebook.com/profile.php?id=100092021438896).
 
 ## Prerequisites
 
