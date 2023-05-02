@@ -26,24 +26,25 @@ The downloaded images will be saved in a directory named `albums` in the same di
 
 **Note 1:** The script is set up to exclude certain album links (specified in the ``exclude_album_links` variable) to avoid downloading duplicate albums. You can modify this list to exclude additional albums if necessary.
 
-**Note 2:** The script is set up to wait for 30 seconds after navigating to each album link to allow for the images to load. You can modify this time by changing the `time.sleep(30)` line in the script.
+**Note 2:** The script is set up to wait for 30 seconds after navigating to each album link to allow for the images to load. You can modify this time by changing the `time.sleep(30)` line in the script. (I Update this and it's now scrolling automatically. But Sometimes it's may be not working)
 
 **Note 3:** The script is set up to use the Chrome WebDriver. If you are using a different browser, you will need to modify the script accordingly.
 
 ### **File Structure**
+
 albums/ <br />
 ├── Album 1/ <br />
-│   ├── photo1.jpg <br />
-│   ├── photo2.jpg <br />
-│   └── metadata.json <br />
+│ ├── photo1.jpg <br />
+│ ├── photo2.jpg <br />
+│ └── metadata.json <br />
 ├── Album 2/ <br />
-│   ├── photo1.jpg <br />
-│   ├── photo2.jpg <br />
-│   └── metadata.json <br />
+│ ├── photo1.jpg <br />
+│ ├── photo2.jpg <br />
+│ └── metadata.json <br />
 |── Album 3/ <br />
-|  ├── photo1.jpg <br />
-|   ├── photo2.jpg <br />
-|   └── metadata.json <br />
+| ├── photo1.jpg <br />
+| ├── photo2.jpg <br />
+| └── metadata.json <br />
 | <br />
 
 ## Disclaimer
@@ -51,6 +52,7 @@ albums/ <br />
 Please respect the privacy and copyright of the owners of the albums you download using this script.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Credits
